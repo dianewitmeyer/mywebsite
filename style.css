@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato+Kiwi+Maru");
+
+
+@media (max-width: 960px) {
+.container {
+    width: 700px;
+	}	
+}	
+
+@media (max-width: 720px) {
+.container {
+    width: 500px;
+ 	}
+}
+
+}
+@media (max-width: 540px) {
+.container {
+    width: 300px;
+  }
+}
+
+body{
+	font-family:"Kiwi Maru", serif;
+	font-size: 18px;
+
+}
+.btnblack{
+	border-radius:100px;
+	background-color: black;
+	color:white;
+	font-family:"lato";
+	font-size: 13px;
+	padding: 20px 20px;
+
+
+}
+
+.banner{
+	background-image: linear-gradient(-225deg,rgba(0,0,0,0.5), rgba(0,0,0,0)), url(images/bannerimage.jpg);
+	background-size: cover;
+	background-position: center;
+	color:white;
+	padding-bottom: 300px;
+	height: 250px;
+
+}
+
+#bannercontainer{
+	text-align: center;
+
+}
+
+#profile-container{
+	display:flex;
+	align-items: center;
+	font-family: "Lato";
+	font-size: 15px;
+	color:white;
+}
+
+#profile-container p{
+	width: 10%;
+}
+
+#profile{
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	border-radius:50%;
+	box-shadow: 0px 0px 15px rgba(225,225,225,0.1);
+	position: top;
+	margin: 20px;
+}
+
+.avatar{
+	width: 90px;
+	height:90px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 50%;}
+
+#profile:hover{
+	width: 75px;
+	height:75px;
+	border: solid rgba(0,0,0,0) 2.5px;}
+
+#btn-banner{
+	width:50%;
+	margin:auto;}
+
+.banner h2{
+	padding-bottom:40px;
+	font-size:30px;
+	font-weight: lighter;}
+
+.banner h1{
+	font-family:"Lato";
+	font-size: 50px;
+	font-style: bold;}
+
+.button{
+	text-align: center;
+	margin-top: 80px}
+
+.btnblack:hover{
+	font-style: italic;
+}
+
+.btnwhite{
+	border-radius:200px;
+	background-color: white;
+	color:black;
+	font-family:"lato";
+	font-size: 13px;
+	font-weight: bold;
+	padding: 30px 30px;
+}
+
+.btnwhite:hover{
+	font-style:italic;
+}
+
+a{
+	text-decoration: none;
+}
+
+.restaurant{
+	width: 380px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.card:hover{
+	transform: scale(1.02);
+}
+
+.card{
+	background-color: white;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+	color: black;
+	padding-top:0px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+
+}
+
+.restaurant-name{
+	font-size: 20px;
+	font-family: "Lato";
+	color:black;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.restaurant-description{
+	font-size: 15px;
+	color:black;
+	font-weight: lighter;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.restaurantblock{
+	width: 180px;
+	height: 124px;
+	object-fit: cover;
+}
+
+.restaurant-name-block{
+	font-size: 15px;
+	font-family: "Lato";
+	color:black;
+	font-weight: bold;
+	padding-left: 7%;
+	margin:5px;
+	padding-right: 7%;
+}
+
+.restaurant-description-block{
+	font-size: 13px;
+	color:black;
+	font-weight: lighter;
+	padding-left: 10%;
+	padding-right: 10%;}
+
+.cardblock{
+	width:180px;
+	background-color: white;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+	color: black;
+	padding-top:0px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+
+.typeform-widget{
+	margin-bottom: 100px;
+}
+
+.container{
+	width:90%;
+	margin:auto;
+	padding:20px;
+}
+
+h2{
+	font-family: "Lato";
+	font-weight: bolder;
+	font-size: 24px;
+}
+
+#avatar-text{
+	display: flex;
+	justify-content: space-around;
+	flex-basis: 500px;
+	flex-wrap: wrap;
+	flex-grow:1;
+	align-items:center;
+}
+
+.suggestion{
+	width : 50%;
+	margin: auto;
+	padding-top: 50px;
+}
+
+
+.list-restaurant{
+	display:flex;
+	flex-basis: 500px;
+	flex-wrap: wrap;
+	flex-grow:1;
+	justify-content: space-around;
+}
+
+.selection{
+	display:flex;
+	flex-basis:500px;
+	flex-wrap:wrap;
+	flex-grow:1;
+	align-items:center;
+	justify-content:space-between;
+	margin-bottom:100px;
+}
+
+#block-droit{
+	display:flex;
+	flex-basis:200px;
+	flex-grow:0.8;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.suggestion{
+	margin-top: 50px;
+}
+.selection{
+	margin-top: 80px;
+}
